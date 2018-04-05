@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "bankai start -d index.js",
+    "build": "NODE_ENV=production bankai build index.js",
+    "start": "serve dist"
+  },
+  "dependencies": {
+    "bankai": "^9.10.4",
+    "choo": "^6.11.0-preview1",
+    "choo-devtools": "^2.5.0",
+    "choo-service-worker": "^2.4.0",
+    "lodash.debounce": "^4.0.8",
+    "serve": "^6.5.3",
+    "tachyons": "^4.9.1"
+  }
+}
